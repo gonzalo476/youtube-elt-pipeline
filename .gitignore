@@ -1,0 +1,90 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.envrc/
+.venv/
+pip-wheel-metadata/
+
+# ===============================
+# Airflow
+# ===============================
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
+plugins/__pycache__/
+
+# Airflow local setup
+dags/__pycache__/
+dags/.ipynb_checkpoints/
+
+# ===============================
+# Jupyter / Data Science
+# ===============================
+.ipynb_checkpoints/
+*.ipynb
+.notebooks/
+
+# Keep example or schema files
+!data/**/README.md
+!data/**/schema.*
+
+# ===============================
+# AWS / Credentials
+# ===============================
+.aws/
+*.pem
+*.key
+credentials
+config
+.env
+.ENV
+
+# ===============================
+# Logs & Runtime
+# ===============================
+*.log
+logs/
+tmp/
+.cache/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Testing / Coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# Misc
+# ===============================
+*.bak
+*.tmp
+
+
+pgdata/
+*.csv
+*.parquet
