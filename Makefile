@@ -56,7 +56,7 @@ logs:
 reset: down
 	@echo "${YELLOW}Resetting Airflow environment (host dirs)...${NC}"
 	sudo chown -R $$(id -u):$$(id -g) logs dags plugins || true
-	rm -rf logs/* plugins/* dags/*
+	rm -rf logs/* plugins/*
 	mkdir -p logs dags plugins
 	chmod 777 logs dags plugins
 	@echo "${GREEN}Airflow environment reset complete.${NC}"
