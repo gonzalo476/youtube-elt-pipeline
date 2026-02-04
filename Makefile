@@ -115,7 +115,7 @@ list-users:
 clean:
 	@echo "${RED}Cleaning all volumes and host data...${NC}"
 	$(DOCKER_COMPOSE) down --volumes --remove-orphans
-	rm -rf logs/* plugins/* dags/*
+	rm -rf logs/* plugins/*
 	mkdir -p logs dags plugins
 	chmod 777 logs dags plugins
 	@echo "${GREEN}Clean completed.${NC}"
