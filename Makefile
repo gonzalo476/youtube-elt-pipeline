@@ -1,4 +1,4 @@
-# Airflow Docker Compose Management (ajustado para tu docker-compose.yml)
+# Airflow Docker Compose Management
 # ==================================
 
 # Variables
